@@ -1,28 +1,25 @@
-# PokedexAngular
+# Pokedex Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+Este projeto foi gerado em Angular 14.1.3.
 
-## Development server
+# Telas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1° Esta é a tela inicial onde os pokemon estão sendo listados e ao clicar em um pokemon é possivel ver as estatística dele.
 
-## Code scaffolding
+![home](https://user-images.githubusercontent.com/63300038/186026791-bdd19b30-0e4e-4b55-9651-6989797748dd.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2° Mostra o pokemon selecionado, suas estatísticas e trás a opção de favoritar o pokemon.
 
-## Build
+![tela das caracteristicas do pokemon selecionado](https://user-images.githubusercontent.com/63300038/186026652-51739bf7-0bf6-4a89-9d73-980d2c361f2e.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3° Mostra os pokemon que foram favoritados
 
-## Running unit tests
+![tela de favoritos](https://user-images.githubusercontent.com/63300038/186026605-6a98309b-bf96-461e-898d-c1743ed6803e.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Instruções para instalação do projeto
 
-## Running end-to-end tests
+Para executar, acesse pasta raiz em outro terminal execute:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# pokedex
+- nm install
+- ng serve
+- Navegue até http://localhost:4200/.
