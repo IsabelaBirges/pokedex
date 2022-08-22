@@ -1,0 +1,15 @@
+<app-cabecalho-pokemon></app-cabecalho-pokemon>
+<div class="container">
+  <ng-template ngFor let-pokemon [ngForOf]="pokemonFavorito" class="template">
+      <div class="card-pokemon ">
+        <div class="card-imagem">
+          <img [src]="imagensPokemon(pokemon.value[0].url)" /><br />
+        </div>
+        <div class="card-titulo">
+          <h2>
+            {{ pokemon.value[0].name}} 
+          </h2>
+        </div>
+      </div>
+  </ng-template>
+</div>

@@ -1,0 +1,36 @@
+<app-cabecalho-pokemon></app-cabecalho-pokemon>
+<main>
+  <ng-template [ngIf]="carregarPokemon">
+    <div class="card bg-{{ pokemon[0].types[0].type.name }} ">
+      <div class="card-pokemon">
+        <div class="row">
+          <div class="col-sm-6">
+            <img [src]="imagemPokemon(pokemon[0].id)" /><br />
+            <h1 class="title ml-5">{{ pokemon[0].name }}</h1>
+          </div>
+          <div class="col-sm-6">
+            <h1 class="card-titulo">Estatísticas</h1>
+            <ul>
+              <li *ngFor="let value of pokemon[0].stats">
+                {{ value.stat.name }}
+                <strong>
+                  {{ value.base_stat }}
+                </strong>
+              </li>
+            </ul>
+            <a href="\" class="btn btn-primary">Voltar</a>
+            <button
+              class="btn btn-light"
+              (click)="adicionarFavoritos('Favoritos', pokemon[0].forms)"
+              *ngIf="!botaoFavorito">
+              Favoritar
+            </button>
+            <button class="btn btn-light" *ngIf="botaoFavorito" disabled>
+              Favoritado
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</main>

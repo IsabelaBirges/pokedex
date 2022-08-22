@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 80%;
+  min-height: 60vh;
+  padding: 3rem;
+  border-radius: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.card-titulo{
+  text-align: center;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  li {
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    line-height: 130%;
+  }
+}
+
+.btn{
+  width: 45%;
+  margin: 10px;
+}
