@@ -20,6 +20,6 @@ Este projeto foi gerado em Angular 14.1.3.
 
 Para executar, acesse pasta raiz em outro terminal execute:
 
-- nm install
+- npm install
 - ng serve
 - Navegue até http://localhost:4200/.
